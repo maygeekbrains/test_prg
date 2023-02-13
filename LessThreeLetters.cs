@@ -25,6 +25,7 @@ namespace test
 		
 		public static void Main(string[] args)
 		{
+			Console.WriteLine("Тестовые примеры:");
 			string[] arrayInput1 = {"hello", "2", "world", ":-)"};
 			WriteLineArray(LessThreeLetters(arrayInput1));
 
@@ -33,8 +34,8 @@ namespace test
 
 			string[] arrayInput3 = {"Russia", "Denmark", "Kazan"};
 			WriteLineArray(LessThreeLetters(arrayInput3));
-				
-			Console.Write("\nPress any key to continue . . . ");
+			
+			Console.Write("\nНажмите любую клавишу для выхода...");
 			Console.ReadKey(true);
 		}
 	}
